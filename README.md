@@ -16,7 +16,7 @@ Data acquisition(web crawler), processing, visualization and statistical inferen
 ### &emsp;1.7  *前期尝试
 
 ## 2  信息查询
-### &emsp;&emsp;2.1  公司数量
+### &emsp;2.1  公司数量
 ### &emsp;2.2  城市数量
 ### &emsp;2.3  查找地点在厦门的数据分析岗位信息
 ### &emsp;2.4  查找经验要求不限或应届毕业生、学历要求为本科的数据分析岗位信息
