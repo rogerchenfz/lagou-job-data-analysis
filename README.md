@@ -1,11 +1,15 @@
 # lagou-job-data-analysis
 Data acquisition(web crawler), processing, visualization and statistical inference
 
+近年来，数据分析岗位的需求热度持续攀升。为了深入了解数据分析岗位的相关情况，本项目从拉勾网上爬取了2020年7月24日发布的数据分析岗位，通过数据处理、数据分析、可视化及统计推断，对数据分析岗位进行了一系列探究。
+
+注：使用的package包括 pymysql, requests, re, random, time, json, pandas, numpy, matplotlib, seaborn, pyecharts, jieba, wordcloud, math, scikit-learn。其中 pyecharts 为1.8.1版本，scikit-learn 为0.22.2版本，部分参数与旧版本不一致，如果包为旧版本运行会报错。
+
 # 目录
 ## 1  数据获取
-### 1.1  创建lagou_job数据库
-### 1.2  创建data_analysis表
-### 1.3  headers设置及cookie获取
+&nbsp;### 1.1  创建lagou_job数据库
+&nbsp;&nbsp;### 1.2  创建data_analysis表
+### &nbsp;&nbsp;&nbsp;1.3  headers设置及cookie获取
 ### 1.4  创建写入MySQL数据库的函数insert_mysql
 ### 1.5  创建爬取数据的函数get_data
 ### 1.6  调用函数爬取数据
